@@ -34,11 +34,26 @@
                     Your browser does not support the audio element.
                 </audio>
             </div>
+            <div class="checklist-container">
+                <button id="checklistButton" class="checklist-button">Victims</button>
+            </div>
             <img src="lulu2.png" alt="Lulu" class="footer-image mirrored">
         </div>
     </footer>
 
+    <!-- Checklist Modal -->
+    <div id="checklistModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Champion Checklist</h2>
+            <div class="champions-grid" id="championsGrid">
+                <!-- Champions will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
     <script>
+        // YouTube video functionality
         async function fetchYouTubeLinks() {
             try {
                 const response = await fetch('videos.json');
@@ -121,10 +136,54 @@
             displayVideos(filtered);
         }
 
+        // Champion checklist functionality
+        const modal = document.getElementById('checklistModal');
+        const checklistButton = document.getElementById('checklistButton');
+        const closeButton = document.querySelector('.close-button');
+        const championsGrid = document.getElementById('championsGrid');
+
+        async function loadChampions() {
+            try {
+                const response = await fetch('champs.json');
+                const champions = await response.json();
+                
+                championsGrid.innerHTML = '';
+                champions.forEach(champion => {
+                    const championItem = document.createElement('div');
+                    championItem.className = 'champion-item';
+                    championItem.innerHTML = `
+                        <span class="champion-name">${champion.champ}</span>
+                        <span class="champion-status">${champion.status}</span>
+                    `;
+                    championsGrid.appendChild(championItem);
+                });
+            } catch (error) {
+                console.error('Error loading champions:', error);
+                championsGrid.innerHTML = '<div class="error">Error loading champions list</div>';
+            }
+        }
+
+        // Event Listeners
         document.addEventListener('DOMContentLoaded', initializePage);
 
         document.getElementById('searchInput').addEventListener('input', (e) => {
             filterVideos(e.target.value);
+        });
+
+        checklistButton.addEventListener('click', () => {
+            modal.style.display = 'block';
+            loadChampions(); // Load champions when modal opens
+        });
+
+        closeButton.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        // Close modal when clicking outside
+        window.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
         });
     </script>
 </body>
