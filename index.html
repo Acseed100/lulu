@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lulu Highlights</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: linear-gradient(to right, #2c3e50, #3498db);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        main {
+            flex: 1;
+            padding: 2rem;
+        }
+
+        .video-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .video-card {
+            flex: 0 1 calc(33.333% - 2rem);
+            min-width: 300px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .video-frame {
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            position: relative;
+        }
+
+        .video-frame iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .video-info {
+            padding: 1rem;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem;
+            margin-top: auto;
+        }
+
+        .audio-player {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #34495e;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        .audio-player audio {
+            width: 100%;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            font-size: 1.2rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lulu Highlights</h1>
+    </header>
+
+    <main>
+        <div class="video-grid" id="videoGrid">
+            <div class="loading">Loading videos...</div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="audio-player">
+            <audio controls>
+                <source src="song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </footer>
+
+    <script>
+        async function fetchYouTubeLinks() {
+            try {
+                const response = await fetch('/api/youtube-links'); // Your API endpoint
+                const links = await response.json();
+                return links;
+            } catch (error) {
+                console.error('Error fetching YouTube links:', error);
+                return [];
+            }
+        }
+
+        function getVideoId(url) {
+            const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+            const match = url.match(regExp);
+            return (match && match[2].length === 11) ? match[2] : null;
+        }
+
+        function createVideoCard(videoUrl) {
+            const videoId = getVideoId(videoUrl);
+            if (!videoId) return null;
+
+            const card = document.createElement('div');
+            card.className = 'video-card';
+            
+            card.innerHTML = `
+                <div class="video-frame">
+                    <iframe
+                        src="https://www.youtube.com/embed/${videoId}"
+                        title="YouTube video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            `;
+
+            return card;
+        }
+
+        async function initializePage() {
+            const videoGrid = document.getElementById('videoGrid');
+            videoGrid.innerHTML = ''; // Clear loading message
+
+            const links = await fetchYouTubeLinks();
+            
+            if (links.length === 0) {
+                videoGrid.innerHTML = '<div class="loading">No videos found</div>';
+                return;
+            }
+
+            links.forEach(link => {
+                const videoCard = createVideoCard(link.url);
+                if (videoCard) {
+                    videoGrid.appendChild(videoCard);
+                }
+            });
+        }
+
+        // Initialize the page when DOM is loaded
+        document.addEventListener('DOMContentLoaded', initializePage);
+    </script>
+</body>
+</html>

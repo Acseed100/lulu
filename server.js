@@ -15,12 +15,33 @@ app.use(express.static('public'));
 
 // MongoDB Atlas connection string
 const uri = process.env.MONGODB_URI;
-const client = new MongoClient(uri);
+
+if (!uri) {
+    console.error('MONGODB_URI environment variable is not set');
+    process.exit(1);
+}
+
+const client = new MongoClient(uri, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+});
+
+// Test database connection
+async function connectDB() {
+    try {
+        await client.connect();
+        console.log('Successfully connected to MongoDB');
+    } catch (error) {
+        console.error('MongoDB connection error:', error);
+        process.exit(1);
+    }
+}
+
+connectDB();
 
 // API endpoint to fetch YouTube links
 app.get('/api/youtube-links', async (req, res) => {
     try {
-        await client.connect();
         const database = client.db("discord_bot");
         const collection = database.collection("youtube_links");
         
