@@ -118,7 +118,7 @@ main {
 }
 
 footer {
-    background: #4b0505;
+    background: linear-gradient(to left, #4b0505, #000000);
     color: white;
     padding: 1rem;
 }
@@ -146,7 +146,7 @@ footer {
 .audio-player {
     flex-grow: 1;
     max-width: 600px;
-    background: #5f0b0b;
+    background: #000000;
     padding: 1rem;
     border-radius: 8px;
 }
