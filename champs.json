@@ -126,5 +126,361 @@
     {
         "champ": "Graves",
         "status": "❌"
+    },
+    {
+        "champ": "Gwen",
+        "status": "❌"
+    },
+    {
+        "champ": "Hecarim",
+        "status": "❌"
+    },
+    {
+        "champ": "Jarvan IV",
+        "status": "❌"
+    },
+    {
+        "champ": "Jax",
+        "status": "❌"
+    },
+    {
+        "champ": "Jayce",
+        "status": "❌"
+    },
+    {
+        "champ": "Jhin",
+        "status": "❌"
+    },
+    {
+        "champ": "Jinx",
+        "status": "❌"
+    },
+    {
+        "champ": "Kai'sa",
+        "status": "❌"
+    },
+    {
+        "champ": "Kalista",
+        "status": "❌"
+    },
+    {
+        "champ": "Kassadin",
+        "status": "❌"
+    },
+    {
+        "champ": "Katarina",
+        "status": "❌"
+    },
+    {
+        "champ": "Kayle",
+        "status": "❌"
+    },
+    {
+        "champ": "Kayn",
+        "status": "❌"
+    },
+    {
+        "champ": "Kha'zix",
+        "status": "❌"
+    },
+    {
+        "champ": "Kindred",
+        "status": "❌"
+    },
+    {
+        "champ": "Karma",
+        "status": "❌"
+    },
+    {
+        "champ": "Kennen",
+        "status": "❌"
+    },
+    {
+        "champ": "Lee Sin",
+        "status": "❌"
+    },
+    {
+        "champ": "Leona",
+        "status": "❌"
+    },
+    {
+        "champ": "Lillia",
+        "status": "❌"
+    },
+    {
+        "champ": "Lissandra",
+        "status": "❌"
+    },
+    {
+        "champ": "Lucian",
+        "status": "❌"
+    },
+    {
+        "champ": "Lux",
+        "status": "❌"
+    },
+    {
+        "champ": "Malphite",
+        "status": "❌"
+    },
+    {
+        "champ": "Master Yi",
+        "status": "❌"
+    },
+    {
+        "champ": "Milio",
+        "status": "❌"
+    },
+    {
+        "champ": "Miss Fortune",
+        "status": "❌"
+    },
+    {
+        "champ": "Mordekaiser",
+        "status": "❌"
+    },
+    {
+        "champ": "Morgana",
+        "status": "❌"
+    },
+    {
+        "champ": "Maokai",
+        "status": "❌"
+    },
+    {
+        "champ": "Nami",
+        "status": "❌"
+    },
+    {
+        "champ": "Nasus",
+        "status": "❌"
+    },
+    {
+        "champ": "Nautilus",
+        "status": "❌"
+    },
+    {
+        "champ": "Nilah",
+        "status": "❌"
+    },
+    {
+        "champ": "Nunu & Willump",
+        "status": "❌"
+    },
+    {
+        "champ": "Olaf",
+        "status": "❌"
+    },
+    {
+        "champ": "Orianna",
+        "status": "❌"
+    },
+    {
+        "champ": "Ornn",
+        "status": "❌"
+    },
+    {
+        "champ": "Pantheon",
+        "status": "❌"
+    },
+    {
+        "champ": "Poppy",
+        "status": "❌"
+    },
+    {
+        "champ": "Pyke",
+        "status": "❌"
+    },
+    {
+        "champ": "Rakan",
+        "status": "❌"
+    },
+    {
+        "champ": "Rammus",
+        "status": "❌"
+    },
+    {
+        "champ": "Rengar",
+        "status": "❌"
+    },
+    {
+        "champ": "Riven",
+        "status": "❌"
+    },
+    {
+        "champ": "Rumble",
+        "status": "❌"
+    },
+    {
+        "champ": "Renekton",
+        "status": "❌"
+    },
+    {
+        "champ": "Samira",
+        "status": "❌"
+    },
+    {
+        "champ": "Senna",
+        "status": "❌"
+    },
+    {
+        "champ": "Seraphine",
+        "status": "❌"
+    },
+    {
+        "champ": "Sett",
+        "status": "❌"
+    },
+    {
+        "champ": "Shen",
+        "status": "❌"
+    },
+    {
+        "champ": "Shyvana",
+        "status": "❌"
+    },
+    {
+        "champ": "Singed",
+        "status": "❌"
+    },
+    {
+        "champ": "Sion",
+        "status": "❌"
+    },
+    {
+        "champ": "Sivir",
+        "status": "❌"
+    },
+    {
+        "champ": "Sona",
+        "status": "❌"
+    },
+    {
+        "champ": "Soraka",
+        "status": "❌"
+    },
+    {
+        "champ": "Swain",
+        "status": "❌"
+    },
+    {
+        "champ": "Syndra",
+        "status": "❌"
+    },
+    {
+        "champ": "Talon",
+        "status": "❌"
+    },
+    {
+        "champ": "Teemo",
+        "status": "✅"
+    },
+    {
+        "champ": "Thresh",
+        "status": "❌"
+    },
+    {
+        "champ": "Tristana",
+        "status": "❌"
+    },
+    {
+        "champ": "Tryndamere",
+        "status": "❌"
+    },
+    {
+        "champ": "Twisted Fate",
+        "status": "❌"
+    },
+    {
+        "champ": "Twitch",
+        "status": "❌"
+    },
+    {
+        "champ": "Urgot",
+        "status": "❌"
+    },
+    {
+        "champ": "Varus",
+        "status": "❌"
+    },
+    {
+        "champ": "Vayne",
+        "status": "❌"
+    },
+    {
+        "champ": "Veigar",
+        "status": "❌"
+    },
+    {
+        "champ": "Vex",
+        "status": "❌"
+    },
+    {
+        "champ": "Vi",
+        "status": "❌"
+    },
+    {
+        "champ": "Viego",
+        "status": "❌"
+    },
+    {
+        "champ": "Viktor",
+        "status": "❌"
+    },
+    {
+        "champ": "Vladimir",
+        "status": "❌"
+    },
+    {
+        "champ": "Volibear",
+        "status": "❌"
+    },
+    {
+        "champ": "Warwick",
+        "status": "✅"
+    },
+    {
+        "champ": "Wukong",
+        "status": "❌"
+    },
+    {
+        "champ": "Xayah",
+        "status": "❌"
+    },
+    {
+        "champ": "Xin Zhao",
+        "status": "❌"
+    },
+    {
+        "champ": "Yasuo",
+        "status": "❌"
+    },
+    {
+        "champ": "Yone",
+        "status": "❌"
+    },
+    {
+        "champ": "Yuumi",
+        "status": "❌"
+    },
+    {
+        "champ": "Zed",
+        "status": "❌"
+    },
+    {
+        "champ": "Zeri",
+        "status": "❌"
+    },
+    {
+        "champ": "Ziggs",
+        "status": "❌"
+    },
+    {
+        "champ": "Zoe",
+        "status": "❌"
+    },
+    {
+        "champ": "Zyra",
+        "status": "❌"
     }
 ]
