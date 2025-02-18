@@ -162,29 +162,126 @@ footer {
     color: #666;
 }
 
-@media (max-width: 768px) {
-    .video-card {
-        flex: 0 1 calc(100% - 2rem);
+/* Keep all the existing CSS above, then replace the media queries with: */
+
+/* Tablets and smaller desktops */
+@media (max-width: 1024px) {
+    .header-content {
+        padding: 0 1rem;
     }
-    
+
+    .video-card {
+        flex: 0 1 calc(50% - 2rem);
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .header-left {
+        height: 60px;
+    }
+
+    .header-image {
+        max-height: 60px;
+    }
+
+    .footer-image {
+        height: 80px;
+        max-height: 80px;
+    }
+}
+
+/* Large mobile devices and small tablets */
+@media (max-width: 768px) {
     .header-content {
         flex-direction: column;
-        text-align: center;
+        gap: 0.5rem;
+        padding: 0.5rem;
     }
-    
+
+    header h1 {
+        font-size: 1.8rem;
+        margin: 0.5rem 0;
+    }
+
     .search-container {
         width: 100%;
+        padding: 0.5rem 0;
     }
-    
+
     #searchInput {
         width: 90%;
+        max-width: 400px;
     }
-    
+
+    .video-card {
+        flex: 0 1 calc(100% - 2rem);
+        min-width: 250px;
+    }
+
     .footer-content {
         flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
     }
-    
+
+    .footer-image {
+        height: 60px;
+        max-height: 60px;
+    }
+
+    .audio-player {
+        width: 100%;
+        max-width: none;
+    }
+
+    main {
+        padding: 1rem;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .header-left {
+        height: 50px;
+    }
+
+    .header-image {
+        max-height: 50px;
+    }
+
     .footer-image {
         height: 40px;
+        max-height: 40px;
+    }
+
+    .video-grid {
+        gap: 1rem;
+    }
+
+    .video-card {
+        margin: 0;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    .video-info {
+        padding: 0.5rem;
+    }
+
+    .video-title {
+        font-size: 1rem;
+    }
+
+    #searchInput {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
     }
 }
