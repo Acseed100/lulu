@@ -5,6 +5,8 @@ body {
     flex-direction: column;
     font-family: Arial, sans-serif;
     background-color: #747475;
+    padding-bottom: 120px; /* Adjust this value based on your footer height */
+    position: relative;
 }
 
 header {
@@ -65,6 +67,7 @@ header h1 {
 main {
     flex: 1;
     padding: 2rem;
+    overflow-y: auto;
 }
 
 .video-grid {
@@ -121,6 +124,11 @@ footer {
     background: linear-gradient(to left, #4b0505, #000000);
     color: white;
     padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .footer-content {
@@ -287,6 +295,16 @@ footer {
 }
 
 
+@media (max-width: 768px) {
+    body {
+        padding-bottom: 200px; /* Increase padding for mobile as footer gets taller */
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
 
 .checklist-button {
     background: #000000;
