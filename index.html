@@ -8,7 +8,15 @@
 </head>
 <body>
     <header>
-        <h1>Lulu Highlights</h1>
+        <div class="header-content">
+            <div class="header-left">
+                <img src="lulu1.png" alt="Lulu" class="header-image">
+            </div>
+            <h1>Lulu Highlights</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search videos...">
+            </div>
+        </div>
     </header>
 
     <main>
@@ -18,18 +26,22 @@
     </main>
 
     <footer>
-        <div class="audio-player">
-            <audio controls>
-                <source src="song.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
+        <div class="footer-content">
+            <img src="lulu2.png" alt="Lulu" class="footer-image">
+            <div class="audio-player">
+                <audio controls>
+                    <source src="song.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <img src="lulu2.png" alt="Lulu" class="footer-image mirrored">
         </div>
     </footer>
 
     <script>
         async function fetchYouTubeLinks() {
             try {
-                const response = await fetch('/lulu/videos.json');
+                const response = await fetch('videos.json');
                 const links = await response.json();
                 return links;
             } catch (error) {
@@ -69,26 +81,51 @@
             return card;
         }
 
+        let allVideos = [];
+
         async function initializePage() {
             const videoGrid = document.getElementById('videoGrid');
             videoGrid.innerHTML = '';
 
-            const links = await fetchYouTubeLinks();
+            allVideos = await fetchYouTubeLinks();
             
-            if (links.length === 0) {
+            if (allVideos.length === 0) {
                 videoGrid.innerHTML = '<div class="loading">No videos found</div>';
                 return;
             }
 
-            links.forEach(link => {
-                const videoCard = createVideoCard(link);
+            displayVideos(allVideos);
+        }
+
+        function displayVideos(videos) {
+            const videoGrid = document.getElementById('videoGrid');
+            videoGrid.innerHTML = '';
+
+            if (videos.length === 0) {
+                videoGrid.innerHTML = '<div class="loading">No videos found</div>';
+                return;
+            }
+
+            videos.forEach(video => {
+                const videoCard = createVideoCard(video);
                 if (videoCard) {
                     videoGrid.appendChild(videoCard);
                 }
             });
         }
 
+        function filterVideos(searchTerm) {
+            const filtered = allVideos.filter(video => 
+                video.title.toLowerCase().includes(searchTerm.toLowerCase())
+            );
+            displayVideos(filtered);
+        }
+
         document.addEventListener('DOMContentLoaded', initializePage);
+
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            filterVideos(e.target.value);
+        });
     </script>
 </body>
 </html>

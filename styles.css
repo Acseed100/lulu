@@ -4,20 +4,58 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, sans-serif;
-    background-color: #adafb3;
+    background-color: #747475;
 }
 
 header {
-    background: linear-gradient(to right, #520808, #000000);
+    background: linear-gradient(to right, #4b0505, #000000);
     color: white;
-    padding: 2rem;
-    text-align: center;
+    padding: 1rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.header-left {
+    height: 80px;
+}
+
+.header-image {
+    height: 100%;
+    width: auto;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.search-container {
+    padding: 0.5rem;
+}
+
+#searchInput {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#searchInput:focus {
+    outline: none;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
 main {
@@ -30,6 +68,8 @@ main {
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .video-card {
@@ -74,16 +114,33 @@ main {
 }
 
 footer {
-    background: #520808;
+    background: #4b0505;
     color: white;
     padding: 1rem;
-    margin-top: auto;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.footer-image {
+    height: 60px;
+    width: auto;
+}
+
+.mirrored {
+    transform: scaleX(-1);
 }
 
 .audio-player {
+    flex-grow: 1;
     max-width: 600px;
-    margin: 0 auto;
-    background: #350202;
+    background: #5f0b0b;
     padding: 1rem;
     border-radius: 8px;
 }
@@ -102,5 +159,26 @@ footer {
 @media (max-width: 768px) {
     .video-card {
         flex: 0 1 calc(100% - 2rem);
+    }
+    
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .search-container {
+        width: 100%;
+    }
+    
+    #searchInput {
+        width: 90%;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-image {
+        height: 40px;
     }
 }
