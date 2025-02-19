@@ -470,3 +470,54 @@ footer {
 .thumbnail-container:hover .video-thumbnail {
     opacity: 0.7;
 }
+
+/* Update mobile styles - add these to your media queries */
+@media (max-width: 768px) {
+    /* Hide images on mobile */
+    .header-left,
+    .footer-image {
+        display: none;
+    }
+
+    /* Adjust header without image */
+    .header-content {
+        flex-direction: column;
+        gap: 0.3rem;
+        padding: 0.3rem;
+    }
+
+    /* Scale down audio player */
+    .audio-player {
+        padding: 0.4rem;
+        max-width: none;
+        width: 100%;
+    }
+
+    .audio-player audio {
+        height: 30px; /* Make the audio player smaller */
+    }
+
+    /* Reduce extra spacing */
+    .footer-content {
+        gap: 0.4rem;
+        padding: 0.4rem;
+    }
+
+    body {
+        padding-bottom: 120px; /* Reduce padding since footer is smaller now */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding-bottom: 100px; /* Even smaller padding for very small screens */
+    }
+
+    .audio-player {
+        padding: 0.3rem;
+    }
+
+    .audio-player audio {
+        height: 25px; /* Even smaller audio player for very small screens */
+    }
+}
