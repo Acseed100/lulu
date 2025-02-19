@@ -201,7 +201,7 @@
     },
     {
         "champ": "Leona",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Lillia",
@@ -217,7 +217,7 @@
     },
     {
         "champ": "Lux",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Malphite",
@@ -341,7 +341,7 @@
     },
     {
         "champ": "Singed",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Sion",
@@ -357,7 +357,7 @@
     },
     {
         "champ": "Soraka",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Swain",
@@ -393,7 +393,7 @@
     },
     {
         "champ": "Twitch",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Urgot",
@@ -453,11 +453,11 @@
     },
     {
         "champ": "Yasuo",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Yone",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Yuumi",

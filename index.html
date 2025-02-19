@@ -147,16 +147,23 @@
                 const response = await fetch('champs.json');
                 const champions = await response.json();
                 
-                championsGrid.innerHTML = '';
-                champions.forEach(champion => {
-                    const championItem = document.createElement('div');
-                    championItem.className = 'champion-item';
-                    championItem.innerHTML = `
-                        <span class="champion-name">${champion.champ}</span>
-                        <span class="champion-status">${champion.status}</span>
-                    `;
-                    championsGrid.appendChild(championItem);
-                });
+                // Count completed champions
+                const completedCount = champions.filter(champ => champ.status === '✅').length;
+                const totalCount = champions.length;
+                
+                championsGrid.innerHTML = `
+                    <div class="checklist-header">
+                        <h2>Champion Checklist (${completedCount}/${totalCount})</h2>
+                    </div>
+                    <div class="champions-list">
+                        ${champions.map(champion => `
+                            <div class="champion-item">
+                                <span class="champion-name">${champion.champ}</span>
+                                <span class="champion-status">${champion.status}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
             } catch (error) {
                 console.error('Error loading champions:', error);
                 championsGrid.innerHTML = '<div class="error">Error loading champions list</div>';
