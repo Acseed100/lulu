@@ -151,19 +151,17 @@
                 const completedCount = champions.filter(champ => champ.status === '✅').length;
                 const totalCount = champions.length;
                 
-                championsGrid.innerHTML = `
-                    <div class="checklist-header">
-                        <h2>Champion Checklist (${completedCount}/${totalCount})</h2>
+                // Update the modal title
+                const modalTitle = document.querySelector('.modal-content h2');
+                modalTitle.textContent = `Champion Checklist (${completedCount}/${totalCount})`;
+                
+                // Update the champions grid
+                championsGrid.innerHTML = champions.map(champion => `
+                    <div class="champion-item">
+                        <span class="champion-name">${champion.champ}</span>
+                        <span class="champion-status">${champion.status}</span>
                     </div>
-                    <div class="champions-list">
-                        ${champions.map(champion => `
-                            <div class="champion-item">
-                                <span class="champion-name">${champion.champ}</span>
-                                <span class="champion-status">${champion.status}</span>
-                            </div>
-                        `).join('')}
-                    </div>
-                `;
+                `).join('');
             } catch (error) {
                 console.error('Error loading champions:', error);
                 championsGrid.innerHTML = '<div class="error">Error loading champions list</div>';
