@@ -78,8 +78,26 @@
             const card = document.createElement('div');
             card.className = 'video-card';
             
+            // Create with thumbnail initially
             card.innerHTML = `
                 <div class="video-frame">
+                    <div class="thumbnail-container">
+                        <img src="https://img.youtube.com/vi/${videoId}/maxresdefault.jpg" 
+                            alt="${videoData.title}"
+                            class="video-thumbnail">
+                        <div class="play-button">▶</div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">${videoData.title}</h3>
+                </div>
+            `;
+
+            // Add click handler to load iframe
+            const thumbnailContainer = card.querySelector('.thumbnail-container');
+            thumbnailContainer.addEventListener('click', () => {
+                const videoFrame = card.querySelector('.video-frame');
+                videoFrame.innerHTML = `
                     <iframe
                         src="https://www.youtube.com/embed/${videoId}"
                         title="YouTube video"
@@ -87,11 +105,8 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
                     </iframe>
-                </div>
-                <div class="video-info">
-                    <h3 class="video-title">${videoData.title}</h3>
-                </div>
-            `;
+                `;
+            });
 
             return card;
         }
