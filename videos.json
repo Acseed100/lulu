@@ -1,30 +1,34 @@
 [
     {
         "url": "https://www.youtube.com/watch?v=mLvhEWfu4_k",
-        "title": "Caitlyn #1"
+        "title": "Caitlyn"
     },
     {
         "url": "https://www.youtube.com/watch?v=Nsc2FSVEA9w",
-        "title": "Darius #1"
+        "title": "Darius"
     },
     {
         "url": "https://www.youtube.com/watch?v=EBAIC9_jx4w",
-        "title": "Evelynn #1"
+        "title": "Evelynn"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=3Pd7IGmNgHo",
+        "title": "Ezreal"
     },
     {
         "url": "https://www.youtube.com/watch?v=6YScQ1dKZCk",
-        "title": "Garen #1"
+        "title": "Garen"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=nmvfROYPTWQ",
+        "title": "Kalista"
     },
     {
         "url": "https://www.youtube.com/watch?v=0HOfo-50ATM",
-        "title": "Teemo #1"
-    },
-    {
-        "url": "https://www.youtube.com/watch?v=EHkUuzw9QjY",
-        "title": "Warwick #1"
+        "title": "Teemo"
     },
     {
         "url": "https://www.youtube.com/watch?v=g7pd0TcSM8c",
-        "title": "Warwick #2"
+        "title": "Warwick"
     }
 ]
