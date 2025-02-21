@@ -85,8 +85,8 @@ main {
 }
 
 .video-card {
-    flex: 0 1 calc(25% - 2rem);
-    min-width: 250px;
+    flex: 0 1 calc(33.333% - 2rem);
+    min-width: 300px;
     background: rgb(0, 0, 0);
     border-radius: 8px;
     overflow: hidden;
@@ -291,11 +291,7 @@ footer {
 }
 
 /* Responsive breakpoints */
-@media (max-width: 1400px) {
-    .video-card {
-        flex: 0 1 calc(33.333% - 2rem);
-    }
-}
+
 
 @media (max-width: 1200px) {
     .champions-grid {
