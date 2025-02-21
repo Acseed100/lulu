@@ -1,5 +1,9 @@
 [
     {
+        "url": "https://www.youtube.com/watch?v=zXb1_1g9WMk",
+        "title": "Ambessa"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=mLvhEWfu4_k",
         "title": "Caitlyn"
     },
@@ -24,6 +28,10 @@
         "title": "Garen"
     },
     {
+        "url": "https://www.youtube.com/watch?v=ousJ6SwOkYg",
+        "title": "Gnar"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=nmvfROYPTWQ",
         "title": "Kalista"
     },
@@ -34,6 +42,10 @@
     {
         "url": "https://www.youtube.com/watch?v=jnj68A2SDSA",
         "title": "Lux"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=6YfEsVm30l8",
+        "title": "Nami"
     },
     {
         "url": "https://www.youtube.com/watch?v=EmL332rkKeM",
@@ -74,5 +86,9 @@
     {
         "url": "https://www.youtube.com/watch?v=ATTej6L0SP4",
         "title": "Yone"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=wZkRWAj93BQ",
+        "title": "Zed"
     }
 ]
