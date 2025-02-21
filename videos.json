@@ -1,11 +1,63 @@
 [
     {
+        "url": "",
+        "title": "Aatrox"
+    },
+    {
+        "url": "",
+        "title": "Ahri"
+    },
+    {
+        "url": "",
+        "title": "Akali"
+    },
+    {
+        "url": "",
+        "title": "Alistar"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=zXb1_1g9WMk",
         "title": "Ambessa"
     },
     {
+        "url": "",
+        "title": "Amumu"
+    },
+    {
+        "url": "",
+        "title": "Annie"
+    },
+    {
+        "url": "",
+        "title": "Ashe"
+    },
+    {
+        "url": "",
+        "title": "Aurelion Sol"
+    },
+    {
+        "url": "",
+        "title": "Akshan"
+    },
+    {
+        "url": "",
+        "title": "Blitzcrank"
+    },
+    {
+        "url": "",
+        "title": "Brand"
+    },
+    {
+        "url": "",
+        "title": "Braum"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=mLvhEWfu4_k",
         "title": "Caitlyn"
+    },
+    {
+        "url": "",
+        "title": "Camille"
     },
     {
         "url": "https://www.youtube.com/watch?v=Nsc2FSVEA9w",
@@ -32,6 +84,14 @@
         "title": "Gnar"
     },
     {
+        "url": "https://www.youtube.com/watch?v=ATP5HRody8o",
+        "title": "Irelia"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=YAFpIRFFDRs",
+        "title": "Jhin"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=nmvfROYPTWQ",
         "title": "Kalista"
     },
@@ -44,8 +104,20 @@
         "title": "Lux"
     },
     {
+        "url": "https://www.youtube.com/watch?v=K60mNK4uUtY",
+        "title": "Malphite"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=12aGe7IaNBc",
+        "title": "Miss Fortune"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=6YfEsVm30l8",
         "title": "Nami"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=ZgPZCcdRtWE",
+        "title": "Seraphine"
     },
     {
         "url": "https://www.youtube.com/watch?v=EmL332rkKeM",
@@ -60,8 +132,16 @@
         "title": "Soraka"
     },
     {
+        "url": "https://www.youtube.com/watch?v=JC-VayzJsUU",
+        "title": "Syndra"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=0HOfo-50ATM",
         "title": "Teemo"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=JoMwFKfEqBM",
+        "title": "Tristana"
     },
     {
         "url": "https://www.youtube.com/watch?v=1jWbNjJmGzY",
@@ -74,6 +154,10 @@
     {
         "url": "https://www.youtube.com/watch?v=53D0-OwRzRc",
         "title": "Urgot"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=Dxl3Wh_w1xk",
+        "title": "Viego"
     },
     {
         "url": "https://www.youtube.com/watch?v=g7pd0TcSM8c",

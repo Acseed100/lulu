@@ -136,6 +136,10 @@
         "status": "❌"
     },
     {
+        "champ": "Irelia",
+        "status": "✅"
+    },
+    {
         "champ": "Jarvan IV",
         "status": "❌"
     },
@@ -149,7 +153,7 @@
     },
     {
         "champ": "Jhin",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Jinx",
@@ -221,7 +225,7 @@
     },
     {
         "champ": "Malphite",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Master Yi",
@@ -233,7 +237,7 @@
     },
     {
         "champ": "Miss Fortune",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Mordekaiser",
@@ -325,7 +329,7 @@
     },
     {
         "champ": "Seraphine",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Sett",
@@ -365,7 +369,7 @@
     },
     {
         "champ": "Syndra",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Talon",
@@ -381,7 +385,7 @@
     },
     {
         "champ": "Tristana",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Tryndamere",
@@ -421,7 +425,7 @@
     },
     {
         "champ": "Viego",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Viktor",
