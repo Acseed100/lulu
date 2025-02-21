@@ -60,8 +60,24 @@
         "title": "Camille"
     },
     {
+        "url": "",
+        "title": "Corki"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=Nsc2FSVEA9w",
         "title": "Darius"
+    },
+    {
+        "url": "",
+        "title": "Diana"
+    },
+    {
+        "url": "",
+        "title": "Dr. Mundo"
+    },
+    {
+        "url": "",
+        "title": "Draven"
     },
     {
         "url": "https://www.youtube.com/watch?v=o-Hc5LsWNyQ",
@@ -76,6 +92,22 @@
         "title": "Ezreal"
     },
     {
+        "url": "",
+        "title": "Fiddlesticks"
+    },
+    {
+        "url": "",
+        "title": "Fiora"
+    },
+    {
+        "url": "",
+        "title": "Fizz"
+    },
+    {
+        "url": "",
+        "title": "Galio"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=6YScQ1dKZCk",
         "title": "Garen"
     },
@@ -84,20 +116,100 @@
         "title": "Gnar"
     },
     {
+        "url": "",
+        "title": "Gragas"
+    },
+    {
+        "url": "",
+        "title": "Gwen"
+    },
+    {
+        "url": "",
+        "title": "Hecarim"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=ATP5HRody8o",
         "title": "Irelia"
+    },
+    {
+        "url": "",
+        "title": "Jarvan IV"
+    },
+    {
+        "url": "",
+        "title": "Jax"
+    },
+    {
+        "url": "",
+        "title": "Jayce"
     },
     {
         "url": "https://www.youtube.com/watch?v=YAFpIRFFDRs",
         "title": "Jhin"
     },
     {
+        "url": "",
+        "title": "Jinx"
+    },
+    {
+        "url": "",
+        "title": "Kai'sa"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=nmvfROYPTWQ",
         "title": "Kalista"
     },
     {
+        "url": "",
+        "title": "Kassadin"
+    },
+    {
+        "url": "",
+        "title": "Katarina"
+    },
+    {
+        "url": "",
+        "title": "Kayle"
+    },
+    {
+        "url": "",
+        "title": "Kayn"
+    },
+    {
+        "url": "",
+        "title": "Kha'zix"
+    },
+    {
+        "url": "",
+        "title": "Kindred"
+    },
+    {
+        "url": "",
+        "title": "Karma"
+    },
+    {
+        "url": "",
+        "title": "Kennen"
+    },
+    {
+        "url": "",
+        "title": "Lee Sin"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=kNQnhnxjyJ8",
         "title": "Leona"
+    },
+    {
+        "url": "",
+        "title": "Lillia"
+    },
+    {
+        "url": "",
+        "title": "Lissandra"
+    },
+    {
+        "url": "",
+        "title": "Lucian"
     },
     {
         "url": "https://www.youtube.com/watch?v=jnj68A2SDSA",
@@ -108,20 +220,132 @@
         "title": "Malphite"
     },
     {
+        "url": "",
+        "title": "Master Yi"
+    },
+    {
+        "url": "",
+        "title": "Milio"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=12aGe7IaNBc",
         "title": "Miss Fortune"
+    },
+    {
+        "url": "",
+        "title": "Maokai"
+    },
+    {
+        "url": "",
+        "title": "Mordekaiser"
+    },
+    {
+        "url": "",
+        "title": "Morgana"
     },
     {
         "url": "https://www.youtube.com/watch?v=6YfEsVm30l8",
         "title": "Nami"
     },
     {
+        "url": "",
+        "title": "Nasus"
+    },
+    {
+        "url": "",
+        "title": "Nautilus"
+    },
+    {
+        "url": "",
+        "title": "Nilah"
+    },
+    {
+        "url": "Nunu & Willump",
+        "title": ""
+    },
+    {
+        "url": "",
+        "title": "Olaf"
+    },
+    {
+        "url": "",
+        "title": "Orianna"
+    },
+    {
+        "url": "",
+        "title": "Ornn"
+    },
+    {
+        "url": "",
+        "title": "Pantheon"
+    },
+    {
+        "url": "",
+        "title": "Poppy"
+    },
+    {
+        "url": "",
+        "title": "Pyke"
+    },
+    {
+        "url": "",
+        "title": "Rakan"
+    },
+    {
+        "url": "",
+        "title": "Rammus"
+    },
+    {
+        "url": "",
+        "title": "Rengar"
+    },
+    {
+        "url": "",
+        "title": "Riven"
+    },
+    {
+        "url": "",
+        "title": "Rumble"
+    },
+    {
+        "url": "",
+        "title": "Renekton"
+    },
+    {
+        "url": "",
+        "title": "Samira"
+    },
+    {
+        "url": "",
+        "title": "Senna"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=ZgPZCcdRtWE",
         "title": "Seraphine"
     },
     {
+        "url": "",
+        "title": "Sett"
+    },
+    {
+        "url": "",
+        "title": "Shen"
+    },
+    {
+        "url": "",
+        "title": "Shyvana"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=EmL332rkKeM",
         "title": "Singed"
+    },
+    {
+        "url": "",
+        "title": "Sion"
+    },
+    {
+        "url": "",
+        "title": "Sivir"
     },
     {
         "url": "https://www.youtube.com/watch?v=PTmkXdLQxPc",
@@ -132,12 +356,24 @@
         "title": "Soraka"
     },
     {
+        "url": "",
+        "title": "Swain"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=JC-VayzJsUU",
         "title": "Syndra"
     },
     {
+        "url": "",
+        "title": "Talon"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=0HOfo-50ATM",
         "title": "Teemo"
+    },
+    {
+        "url": "",
+        "title": "Thresh"
     },
     {
         "url": "https://www.youtube.com/watch?v=JoMwFKfEqBM",
@@ -148,6 +384,10 @@
         "title": "Tryndamere"
     },
     {
+        "url": "",
+        "title": "Twisted Fate"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=s3eQPP1frH0",
         "title": "Twitch"
     },
@@ -156,12 +396,56 @@
         "title": "Urgot"
     },
     {
+        "url": "",
+        "title": "Varus"
+    },
+    {
+        "url": "",
+        "title": "Vayne"
+    },
+    {
+        "url": "",
+        "title": "Veigar"
+    },
+    {
+        "url": "",
+        "title": "Vex"
+    },
+    {
+        "url": "",
+        "title": "Vi"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=Dxl3Wh_w1xk",
         "title": "Viego"
     },
     {
+        "url": "",
+        "title": "Viktor"
+    },
+    {
+        "url": "",
+        "title": "Vladimir"
+    },
+    {
+        "url": "",
+        "title": "Volibear"
+    },
+    {
         "url": "https://www.youtube.com/watch?v=g7pd0TcSM8c",
         "title": "Warwick"
+    },
+    {
+        "url": "",
+        "title": "Wukong"
+    },
+    {
+        "url": "",
+        "title": "Xayah"
+    },
+    {
+        "url": "",
+        "title": "Xin Zhao"
     },
     {
         "url": "https://www.youtube.com/watch?v=EBPBi5ZzW6s",
@@ -172,7 +456,27 @@
         "title": "Yone"
     },
     {
+        "url": "Yuumi",
+        "title": ""
+    },
+    {
         "url": "https://www.youtube.com/watch?v=wZkRWAj93BQ",
         "title": "Zed"
+    },
+    {
+        "url": "",
+        "title": "Zeri"
+    },
+    {
+        "url": "",
+        "title": "Ziggs"
+    },
+    {
+        "url": "",
+        "title": "Zoe"
+    },
+    {
+        "url": "",
+        "title": "Zyra"
     }
 ]
