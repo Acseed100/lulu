@@ -97,7 +97,7 @@
     },
     {
         "champ": "Fiora",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Fizz",
@@ -129,11 +129,15 @@
     },
     {
         "champ": "Gwen",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Hecarim",
         "status": "❌"
+    },
+    {
+        "champ": "Heimerdinger",
+        "status": "✅"
     },
     {
         "champ": "Irelia",
@@ -181,7 +185,7 @@
     },
     {
         "champ": "Kayn",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Kha'zix",
@@ -325,7 +329,7 @@
     },
     {
         "champ": "Senna",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Seraphine",
@@ -433,7 +437,7 @@
     },
     {
         "champ": "Vladimir",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Volibear",
@@ -453,7 +457,7 @@
     },
     {
         "champ": "Xin Zhao",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Yasuo",
