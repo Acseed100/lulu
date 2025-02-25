@@ -29,7 +29,7 @@
     },
     {
         "champ": "Ashe",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Aurelion Sol",
@@ -45,7 +45,7 @@
     },
     {
         "champ": "Brand",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Braum",
@@ -69,7 +69,7 @@
     },
     {
         "champ": "Diana",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Dr. Mundo",
@@ -98,10 +98,6 @@
     {
         "champ": "Fiora",
         "status": "✅"
-    },
-    {
-        "champ": "Fizz",
-        "status": "❌"
     },
     {
         "champ": "Fizz",
@@ -144,12 +140,16 @@
         "status": "✅"
     },
     {
+        "champ": "Janna",
+        "status": "✅"
+    },
+    {
         "champ": "Jarvan IV",
         "status": "❌"
     },
     {
         "champ": "Jax",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Jayce",
@@ -193,7 +193,7 @@
     },
     {
         "champ": "Kindred",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Karma",
@@ -221,7 +221,7 @@
     },
     {
         "champ": "Lucian",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Lux",
@@ -269,7 +269,7 @@
     },
     {
         "champ": "Nilah",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Nunu & Willump",
@@ -353,7 +353,7 @@
     },
     {
         "champ": "Sion",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Sivir",
@@ -433,7 +433,7 @@
     },
     {
         "champ": "Viktor",
-        "status": "❌"
+        "status": "✅"
     },
     {
         "champ": "Vladimir",
@@ -489,6 +489,6 @@
     },
     {
         "champ": "Zyra",
-        "status": "❌"
+        "status": "✅"
     }
 ]

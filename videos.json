@@ -28,7 +28,7 @@
         "title": "Annie"
     },
     {
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=EZfxGu7utn4",
         "title": "Ashe"
     },
     {
@@ -44,7 +44,7 @@
         "title": "Blitzcrank"
     },
     {
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=GtE1F0xvrbw",
         "title": "Brand"
     },
     {
@@ -68,7 +68,7 @@
         "title": "Darius"
     },
     {
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=r4ZOXibGsDs",
         "title": "Diana"
     },
     {
@@ -136,11 +136,15 @@
         "title": "Irelia"
     },
     {
+        "url": "https://www.youtube.com/watch?v=Yg1xgmrDEL8",
+        "title": "Janna"
+    },
+    {
         "url": "",
         "title": "Jarvan IV"
     },
     {
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=LaqSpBMXYcI",
         "title": "Jax"
     },
     {
@@ -184,7 +188,7 @@
         "title": "Kha'zix"
     },
     {
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=F5VA1BIvnBA",
         "title": "Kindred"
     },
     {
@@ -212,7 +216,7 @@
         "title": "Lissandra"
     },
     {
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=9L-mBM2G0VM",
         "title": "Lucian"
     },
     {
@@ -260,7 +264,7 @@
         "title": "Nautilus"
     },
     {
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=3A04VFAz7lY",
         "title": "Nilah"
     },
     {
@@ -344,7 +348,7 @@
         "title": "Singed"
     },
     {
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=GMWhe-T2Yb4",
         "title": "Sion"
     },
     {
@@ -424,7 +428,7 @@
         "title": "Viego"
     },
     {
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=bguiPQIUEJM",
         "title": "Viktor"
     },
     {
@@ -480,7 +484,7 @@
         "title": "Zoe"
     },
     {
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=v5YQseQiLqo",
         "title": "Zyra"
     }
 ]
