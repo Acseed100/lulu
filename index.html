@@ -166,9 +166,12 @@
                 const completedCount = champions.filter(champ => champ.status === '✅').length;
                 const totalCount = champions.length;
                 
+                // Calculate percentage with max 1 decimal place
+                const percentage = (completedCount / totalCount * 100).toFixed(1);
+                
                 // Update the modal title
                 const modalTitle = document.querySelector('.modal-content h2');
-                modalTitle.textContent = `Target Registry (${completedCount}/${totalCount})`;
+                modalTitle.textContent = `Target Registry (${completedCount}/${totalCount}) ${percentage}%`;
                 
                 // Update the champions grid
                 championsGrid.innerHTML = champions.map(champion => `
